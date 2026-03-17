@@ -1,2 +1,2 @@
 # Para-Giovanny
-para Giovanny x2
+para Giovanny x3
