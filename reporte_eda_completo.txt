@@ -1,0 +1,58 @@
+DATASET: FatigueSet-2 - Análisis Exploratorio de Datos
+Fecha de análisis: 2026-03-17 18:41:00
+
+ESTRUCTURA GENERAL:
+  • Participantes: 12
+  • Sesiones por participante: 3 (low, medium, high)
+  • Total aproximado de archivos: 2232
+  • Tipos de archivo únicos: 62
+
+CATEGORÍAS DE SENSORES:
+  • Chest (ECG/Breathing): 7 tipos
+    - chest_bb_interval.csv
+    - chest_physiology_summary.csv
+    - chest_raw_acc.csv
+    ... y 4 más
+  • EEG (Forehead): 16 tipos
+    - forehead_acc.csv
+    - forehead_acc2.csv
+    - forehead_eeg_alpha_abs.csv
+    ... y 13 más
+  • Wrist (Physiological): 12 tipos
+    - wrist_acc.csv
+    - wrist_acc2.csv
+    - wrist_bvp.csv
+    ... y 9 más
+  • Ear (PPG/Acc/Gyro): 12 tipos
+    - ear_acc_left.csv
+    - ear_acc_left2.csv
+    - ear_acc_right.csv
+    ... y 9 más
+  • Experimental Tasks: 5 tipos
+    - exp_crt.csv
+    - exp_fatigue.csv
+    - exp_markers.csv
+    ... y 2 más
+  • Device Status: 6 tipos
+    - muse_device_battery.csv
+    - muse_device_fit.csv
+    - muse_device_fit2.csv
+    ... y 3 más
+  • Other: 4 tipos
+    - muse_blinks.csv
+    - muse_blinks2.csv
+    - muse_jaw_clenches.csv
+    ... y 1 más
+
+TIPOS DE DATOS PRINCIPALES:
+  • Fisiológicos: ECG, EEG, HR, EDA, PPG, Respiración
+  • Movimiento: Acelerómetros, Giroscopios
+  • Cognitivos: N-back, Task switching, Tiempo de reacción
+  • Subjetivos: Evaluaciones de fatiga física y mental
+
+RECOMENDACIONES PARA ANÁLISIS FUTURO:
+  • Sincronizar señales usando timestamps
+  • Aplicar filtros de señal para ECG/EEG
+  • Analizar correlaciones entre medidas objetivas y subjetivas
+  • Implementar análisis de machine learning para predicción
+  • Estudiar variabilidad inter-individual
